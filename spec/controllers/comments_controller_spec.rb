@@ -21,7 +21,7 @@ RSpec.describe CommentsController, type: :controller do
             
         end
         
-        it "should return an http status of not found if teh gram is not found" do
+        it "should return an http status of not found if the gram is not found" do
             user = FactoryBot.create(:user)
             sign_in user
             
